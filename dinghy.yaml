@@ -1,0 +1,21 @@
+defaults:
+  title: Markata Report
+  items:
+    - https://github.com/waylonwalker/markata
+    - https://github.com/waylonwalker/markata-docker
+    - https://github.com/waylonwalker/markata-blog-starter
+    - https://github.com/waylonwalker/markata-slides
+    - https://github.com/waylonwalker/markata-gh
+    - https://github.com/waylonwalker/markata-todoui
+    - https://github.com/waylonwalker/markata-action
+    - https://github.com/waylonwalker/markata-plugin-template
+    - https://github.com/waylonwalker/markata-post-template
+digests:
+  - digest: output/index.html
+    since: 1 week
+  - digest: output/week/index.html
+    since: 1 week
+  - digest: output/month/index.html
+    since: 3 week
+  - digest: output/quarter/index.html
+    since: 12 week

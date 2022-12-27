@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dinghy-markata-com"
+description = 'markata git digest'
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Waylon S. Walker", email = "waylon@waylonwalker.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ['dinghy']
+
+[project.urls]
+Documentation = "https://github.com/unknown/dinghy-markata-com#readme"
+Issues = "https://github.com/unknown/dinghy-markata-com/issues"
+Source = "https://github.com/unknown/dinghy-markata-com"
+
+[tool.hatch.version]
+path = "dinghy_markata_com/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+]
+[tool.hatch.envs.default.scripts]
+build = "dinghy"
+
+
